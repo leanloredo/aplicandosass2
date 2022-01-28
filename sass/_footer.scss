@@ -1,0 +1,29 @@
+.footer {
+    display: grid;
+    grid-area: footer;
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    height: 120px;   
+    &--lista {
+        display: flex;
+        flex-flow: column nowrap;
+        position: relative;
+        top: 25px;
+        left: 10px;
+    }
+    &--lista2 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content:flex-end;
+        position: relative;
+        bottom: 50px;
+        right: 5%;
+    }
+    &--link {
+        display: inline;
+    }
+    &--faq {
+        text-decoration: $textLink;
+        color: $colorTexto;
+    }
+}

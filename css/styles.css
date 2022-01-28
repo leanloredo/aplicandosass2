@@ -1,0 +1,136 @@
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  font-family: 'Roboto Slab', serif;
+  background-color: black;
+  height: 120px;
+}
+
+.footer--lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+
+.footer--lista2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  bottom: 50px;
+  right: 5%;
+}
+
+.footer--link {
+  display: inline;
+}
+
+.footer--faq {
+  text-decoration: none;
+  color: white;
+}
+
+.grid-areas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px 80vh 100vh 100px;
+      grid-template-rows: 50px 80vh 100vh 100px;
+      grid-template-areas: "header" "section1" "section2" "footer";
+}
+
+.header {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.section1 {
+  display: -ms-grid;
+  display: grid;
+  grid-area: auto;
+  background-image: url(../img/pelota_arco.jpg);
+  grid-row: auto;
+  grid-column: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1--titulo {
+  font-family: "Secular One", sans-serif;
+}
+
+.section1--slogan {
+  font-family: "Baloo Bhaijaan 2";
+}
+
+.section2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: section2;
+  grid-row: auto;
+  grid-column: auto;
+  font-family: "Readex Pro", sans-serif;
+  background-color: gray;
+  height: 110vh;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.section2__fotos {
+  width: 200px;
+}
+
+.section2__whatsap {
+  background-color: #6ec56b;
+  text-decoration: none;
+  color: "Readex Pro", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
