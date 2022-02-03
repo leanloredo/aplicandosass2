@@ -1,29 +1,45 @@
+//Maps//
+$colores:(
+    color1:white,
+    color2:black,
+);
+
+/* Estilos de: Footer */
 .footer {
-    display: grid;
-    grid-area: footer;
     font-family: 'Roboto Slab', serif;
-    background-color: black;
-    height: 120px;   
+    background-color: map-get($colores, color2);
+    height: auto;
+    padding: 2%;
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 0;
     &--lista {
         display: flex;
         flex-flow: column nowrap;
-        position: relative;
-        top: 25px;
-        left: 10px;
     }
     &--lista2 {
         display: flex;
         flex-flow: row nowrap;
-        justify-content:flex-end;
-        position: relative;
-        bottom: 50px;
-        right: 5%;
-    }
-    &--link {
-        display: inline;
     }
     &--faq {
+        display: inline;
         text-decoration: $textLink;
-        color: $colorTexto;
+        color: map-get($colores, color1 ); 
+    }
+    &--redes1 {
+        width: 20%;
+        display: flex;
+        position: relative;
+        top: 15%;
+        left: 150%;
+        min-width: 30px;
+    }
+    &--redes2 {
+        width: 20%;
+        display: flex;
+        position: relative;
+        top: 15%;
+        left: 75%;
+        min-width: 30px;
     }
 }

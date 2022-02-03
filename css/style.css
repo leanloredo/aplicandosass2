@@ -106,7 +106,7 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
 }
 .section3__fotos {
     width: 25vw;
-    min-width: 125px;
+    min-width: 115px;
     margin-top: 5%;
 }
 
@@ -115,8 +115,6 @@ menu, nav, output, ruby, section, summary, time, mark, audio, video {
     background-color: rgb(128, 128, 128);
     height: 600px;
     width: 100vw;
-    position: relative;
-    top: 0px;
     color: white;
     font-family: 'Roboto Slab', serif;
     text-align: center;

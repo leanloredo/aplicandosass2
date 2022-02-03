@@ -1,12 +1,12 @@
+/* Estilos de: Footer */
 .footer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  grid-area: footer;
   font-family: 'Roboto Slab', serif;
   background-color: black;
-  height: 120px;
+  height: auto;
+  padding: 2%;
+  width: 100%;
+  font-size: 100%;
+  margin-bottom: 0;
 }
 
 .footer--lista {
@@ -17,9 +17,6 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  position: relative;
-  top: 25px;
-  left: 10px;
 }
 
 .footer--lista2 {
@@ -30,45 +27,46 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  position: relative;
-  bottom: 50px;
-  right: 5%;
-}
-
-.footer--link {
-  display: inline;
 }
 
 .footer--faq {
+  display: inline;
   text-decoration: none;
   color: white;
 }
 
-.grid-areas {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 50px 80vh 100vh 100px;
-      grid-template-rows: 50px 80vh 100vh 100px;
-      grid-template-areas: "header" "section1" "section2" "footer";
+.footer--redes1 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 15%;
+  left: 150%;
+  min-width: 30px;
 }
 
+.footer--redes2 {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 15%;
+  left: 75%;
+  min-width: 30px;
+}
+
+/* Estilos de: Home */
 .header {
   font-family: "Readex Pro", sans-serif;
 }
 
 .section1 {
-  display: -ms-grid;
-  display: grid;
-  grid-area: auto;
   background-image: url(../img/pelota_arco.jpg);
-  grid-row: auto;
-  grid-column: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 80vh;
   text-align: center;
   color: white;
@@ -97,16 +95,13 @@
 }
 
 .section2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: section2;
-  grid-row: auto;
-  grid-column: auto;
+  background-color: grey;
+  height: auto;
+  width: 100%;
   font-family: "Readex Pro", sans-serif;
-  background-color: gray;
-  height: 110vh;
+  text-align: center;
+  padding-bottom: 5%;
+  padding: 1,5rem;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,13 +110,12 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
+}
+
+.section2__titulo {
+  font-size: 1,5rem;
+  font-family: "Readex Pro", sans-serif;
+  margin: 3rem;
 }
 
 .section2__fotos {
@@ -130,7 +124,37 @@
 
 .section2__whatsap {
   background-color: #6ec56b;
+  padding: 10px;
   text-decoration: none;
-  color: "Readex Pro", sans-serif;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Estilos de: Productos */
+.section3 {
+  background-color: grey;
+  height: auto;
+  width: 100%;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.section3__titulo1 {
+  font-family: "Bakbak One";
+  font-size: 220%;
+  padding-top: 2%;
+}
+
+.section3__titulo2 {
+  font-size: 125%;
+  padding-top: 5%;
+}
+
+.section3__fotos {
+  width: 25vw;
+  min-width: 125px;
+  margin: 5%;
 }
 /*# sourceMappingURL=styles.css.map */
